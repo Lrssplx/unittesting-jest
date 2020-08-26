@@ -4,7 +4,8 @@
   "description": "testes usando jest",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "commit": "npx git-cz"
   },
   "keywords": [
     "jest"

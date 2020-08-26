@@ -1,3 +1,5 @@
+//classe filtros
+
 const filtro = require('./filtro')
 const contatos = [{"nome":"Larissa", "sobrenome": "Pereira", "nome": "Caio", "sobrenome": "Pereira"}]
 const encontrado = {"nome":"Larissa", "sobrenome": "Pereira"}
