@@ -1,0 +1,23 @@
+{
+  "name": "unittesting-jest",
+  "version": "1.0.0",
+  "description": "testes usando jest",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "jest"
+  ],
+  "author": "Larissa Pereira",
+  "license": "ISC",
+  "devDependencies": {
+    "cli": "^1.0.1",
+    "jest": "^26.4.2"
+  },
+  "jest":{
+    "testEnviroment": "node",
+    "coverageReporters": ["text-sumary"],
+    "coverageDirectory": "./resultado"
+  }
+}
